@@ -13,10 +13,11 @@ g. O(log(n))
 
 Exercise II
 
-a. Given an array a of n numbers, design a linear running time algorithm to find the maximum value of a[j] - a[i], where j ≥ i.
+a. 
+sorted_arr = sorted(arr)
+return sorted_arr[-1] - sorted_arr[0]
 
-b. Suppose that you have an n-story building and plenty of eggs. Suppose also that an egg is broken if it is thrown off floor f or higher, and unbroken otherwise. Devise a strategy to determine the value of f such that the number of dropped eggs is minimized.
-
+b. I would do a mix of binary search and closest pair. Because the goal here would be not just to find where the egg is safe, but how high you can go until it breaks. So we would want to minimize the search area with a binary search algorithm but then identify the floor above as either a break or safe.
 
 Exercise III
 
