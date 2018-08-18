@@ -34,3 +34,5 @@ function quicksort(array)
 a. Suppose we implement quicksort so that the pivot is always chosen to be the first element of the array. What is the running time of this algorithm on an input array that is already sorted? Why?
 
 b. Suppose we implement quicksort so that the pivot is always magically chosen to be the median element of the array. What is the running time of this algorithm? Why?
+
+it would be the same as question A because it doesn't matter how quick it finds it. The sort is still existing within the algorithm so the time complexity remains the same as A when the quicksort is added
